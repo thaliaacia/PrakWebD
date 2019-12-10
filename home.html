@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Siska UBG</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">SISKA-UBG</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="data_mahasiswa.html">Data Mahasiswa</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="data_nilai.html">Data Nilai</a>
+      </li>
+    </ul>
+  </div>
+</nav>-->
+	<div class="container">
+    <div class="jumbotron">
+          <h1 class="display-4">SISIKA UBG</h1>
+            <p class="lead">Selamat Datang Di Situs Siska UBG</p>  
+            
+  </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="user.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Lalu</h5>
+              <p class="card-text">Mahasiswa Berprestasi, Jurusan S1 TI</p>
+              <button id="read">read more....</button>
+              <button id="unread" hidden>Unread</button>
+              <p id="open" hidden>tadaaaaa.....</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="user.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Bambang</h5>
+            <p class="card-text">Mahasiswa Berprestasi, Jurusan S1 TI</p>
+          </div>    
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="user.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Hartono</h5>
+            <p class="card-text">Mahasiswa Berprestasi, Jurusan S1 TI</p>
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+  <!-- <p id="biodata"></p>  
+  <p id="umur"></p>  
+    <script type="text/javascript">
+
+      var nama = "thalia";
+      var age = 20;
+      dokumen.getElementbyId("biodata").innerHTML = nama;
+      dokumen.getElementbyId("umur").innerHTML = age;
+
+      </script>-->
+    <script type="text/javascript">
+    for (var i = Things.length - 1; i >= 0; i--) {
+      Things[i]
+    }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function (){
+        $('#read').click(function(){
+          $('#open').prop('hidden', false);
+          $('#unread').prop('hidden', false);
+          $('#read').prop('hidden', true);
+        })
+        $('#unread').click(function(){
+          $('#open').prop('hidden', true);
+          $('#unread').prop('hidden', true);
+          $('#read').prop('hidden', false);
+        })
+      })
+    </script>
+  
+</body>
+</html>
